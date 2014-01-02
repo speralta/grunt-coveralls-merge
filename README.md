@@ -1,6 +1,8 @@
 grunt-coveralls-merge
 =====================
 
+[![Codeship Status](https://www.codeship.io/projects/5d27ce50-55eb-0131-8b70-5abb769c8f3b/status)](https://www.codeship.io/projects/11595)
+
 # Getting started
 
 To publish to coveralls.io multiple reports:

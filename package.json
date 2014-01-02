@@ -10,8 +10,8 @@
     "url": "https://github.com/speralta/grunt-coveralls-merge"
   },
   "keywords": [
-    "Grunt.js",
-    "Coveralls.js"
+    "coveralls",
+    "grunt"
   ],
   "engines": {
     "node": ">=v0.8.1"
