@@ -1,3 +1,5 @@
+var fs = require('fs');
+
 module.exports = function(grunt) {
 
   grunt.task.registerTask('coveralls_merge', 'Merge coveralls files and send it', function(){
