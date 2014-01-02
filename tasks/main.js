@@ -29,7 +29,9 @@ module.exports = function(grunt) {
       }
       gruntOptions.coveralls_files.forEach(function(file) {
         var content = JSON.parse(fs.readFileSync(file));
-        postJson.source_files.push(content.source_files);
+        content.source_files.forEach(function(source) {
+          postJson.source_files.push(source);
+        });
       });
       options.filepath = ".";
       if (!gruntOptions.dryRun) {
