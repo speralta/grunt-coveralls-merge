@@ -1,7 +1,7 @@
 {
   "name": "grunt-coveralls-merge",
   "description": "An npm module for merging Coveralls JSON file with Grunt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Sébastien PERALTA"
   },
