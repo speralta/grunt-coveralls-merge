@@ -41,7 +41,8 @@ module.exports = function(grunt) {
             throw err;
           }
           if (response.statusCode >= 400){
-            handleError(done, "Bad response:" + response.statusCode + " " + body);
+            done();
+            throw "Bad response:" + response.statusCode + " " + body;
           }
           done();
         });
